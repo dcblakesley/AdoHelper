@@ -1,13 +1,11 @@
 ﻿using System.Text.Json;
 using AdoUtilities;
-using static Tests.Test1;
 
 namespace Tests;
 
 [TestClass]
 public sealed class Test1
 {
-
     /// <summary> Create a test settings file with secret values. Only needs to be run once manually. </summary>
     [TestMethod]
     public void CreateTestSettings()
@@ -36,12 +34,12 @@ public sealed class Test1
             Type = "Feature", // Product Backlog Item
             Title = "Test Feature",
             Tags = "Test",
-            Description = "This is a test Feature",
+            Description = "This is a test Feature ZZZZ",
             AcceptanceCriteria = "Test it",
             Area = "Webstaurantstore.com\\Procurement",
             //Iteration = "Webstaurantstore.com\\Procurement\\2024\\Q4\\2024 Q4 Sprint 3",
             State = "New",
-            AssignedToDescriptor = "win.Uy0xLTUtMjEtMTYxNDg5NTc1NC0xMDc4MDgxNTMzLTgzOTUyMjExNS02MTY2Nw",
+            //AssignedToDescriptor = "win.Uy0xLTUtMjEtMTYxNDg5NTc1NC0xMDc4MDgxNTMzLTgzOTUyMjExNS02MTY2Nw",
             ParentId = 994369 // "Hatch - Accessibility" // 1201030
         };
 
